@@ -1,0 +1,98 @@
+body {
+	display: flex;
+	font-family: 'Courier', monospace;
+	margin: 0;
+	padding: 0;
+	text-align: justify; /* Alinea el texto justificado */
+	margin: 10mm; /* Márgenes de 10 mm en todos los lados */
+	padding: 5mm; /* Relleno de 5 mm en todos los lados */
+}
+hr {
+	color:#000 !important;
+}
+.ticket {		
+		width: 300px;
+		margin: 5px;
+		padding: 5px;	
+		font-size: 12px !important;
+}
+.left-align {
+	text-align: left;
+}
+
+.right-align {
+	text-align: right;
+}
+.center-align{ 
+	text-align: center; 
+}
+th {
+	border-bottom: 0.8px solid #000; /* Borde en la parte inferior */
+	border-top: 0.8px solid #000; /* Borde en la parte inferior */
+    padding: 8px;
+}
+
+.cell-container {
+    width: 100% !important;
+}
+
+.cell {
+    padding: 8px; /* Ajusta el espaciado interior según tus preferencias */
+}
+
+.left-align {
+    text-align: left;
+}
+
+.column-1 {
+    width: 30% !important;
+    float: left;
+    box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+}
+
+.column-2 {
+    width: 70% !important;
+    float: left;
+    box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+}
+
+.column-3 {
+    width: 60% !important;
+    float: left;
+    box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+}
+
+.column-4 {
+    width: 40% !important;
+    float: right;
+    box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.right-align.column-4 p {
+    margin-bottom: 5px;
+}
+
+.right-align.column-4 p.subtotal {
+    margin-bottom: 5px;    
+}
+
+.right-align.column-4 p.igv {
+    margin-bottom: 5px;
+}
+
+.right-align.column-4 p.total {
+    margin-bottom: 5px;
+}
+.cell-container .hash-paragraph {
+    margin: 0; /* Elimina el margen superior e inferior */
+    padding: 0; /* Elimina el padding */
+    font-size: 12px; /* Ajusta el tamaño de fuente según sea necesario */
+    position: absolute;
+    top: 0;
+}

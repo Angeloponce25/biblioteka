@@ -1,0 +1,59 @@
+/* RESUMEN DIARIO INPUTS  */
+.contenedor-busqueda {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+  }
+  .contenedor-busqueda .input-group-search {
+    width: 100% !important;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contenedor-busqueda .input-group-search .input-search {
+    margin: 8px;
+    width: 95%;
+    padding-right: 10px;
+  }
+  .contenedor-busqueda .input-group-search .input-search input {
+    outline: 0 !important;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    padding-left: 12px;
+    border-right: 0px;
+    width: 100%;
+    text-transform: uppercase;
+  }
+  .contenedor-busqueda .input-group-search .input-search span {
+    position: absolute;
+    padding: 5px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 0px 5px 5px 0px;
+    background-image: linear-gradient(
+      105.3deg,
+      rgb(69, 79, 160) 21.8%,
+      rgb(118, 156, 253) 100.2%
+    ) !important;
+    color: #fff !important;
+  }
+  .ida 
+  {
+    text-transform: uppercase;
+  }
+  @media (min-width: 768px) {
+    .fullscreen-modal .modal-dialog {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .fullscreen-modal .modal-dialog {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .fullscreen-modal .modal-dialog {
+      width: 1170px;
+    }
+  }
